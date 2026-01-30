@@ -1,18 +1,24 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\{
+    HomeController,
+    CatalogController,
+    ProductController,
+    OrderController,
+    BasketController
+};
+use Encore\Admin\Facades\Admin;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+Admin::routes();
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/catalog', [CatalogController::class, 'index'])->name('catalog');
+Route::get('/product/{id}', [ProductController::class, 'show'])->name('product.show');
+Route::get('/basket', [OrderController::class, 'create'])->name('basket');
+Route::post('/order', [OrderController::class, 'store'])->name('order.store');
+
+Route::post('/basket/add', [BasketController::class, 'add'])->name('basket.add');
+
+
+Route::post('/basket/clear', [BasketController::class, 'clear'])->name('basket.clear');

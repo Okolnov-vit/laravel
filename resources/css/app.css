@@ -1,0 +1,1671 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    margin: 0;
+   
+    font-weight: 400;
+    font-style: normal;
+}
+/* .new-rocker-regular {
+    font-family: "New Rocker", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+   */
+   .header {
+   /* header */
+
+    position: absolute;
+    width: 1274px;
+    height: 81px;
+    left: 12px;
+    top: 30px;
+    
+
+
+
+}
+
+:root{
+    --accent-color: #F0440D;
+}
+
+.logo {
+    
+    /* 17096500988667votglk7 1 */
+
+    position: absolute;
+    left: 0%;
+    right: 93.01%;
+    top: 0%;
+    bottom: 0%;
+
+    /*background: #FFFFFF; */
+
+    
+}
+
+.logo_name {
+   
+    /* Soviet motorcycle */
+
+    position: absolute;
+    width: 115px;
+    height: 6px;
+    left: 98px;
+    top: 43px;
+
+    font-family: 'New Rocker';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+
+    color: #F0440D;
+    
+}
+.group_menu {
+    box-sizing: border-box;
+    /* Group 20 */
+    display: flex;
+    width: 1043px;
+    height: 55px; 
+    left: 231px;
+    top: 25px;
+
+    float: left;
+    margin:0;
+    padding:0 ;
+    position:relative;
+
+
+    left: 18.13%;
+    right: 0%;
+    
+    bottom: 1.23%;
+
+    background: #151A36;
+  
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+.group_menu ul li {
+   
+    float: left;
+}
+
+.group_menu ul li a {
+    
+    display:block;
+    margin:0;
+    padding:15px 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+   }
+.group_menu ul li a:hover{
+    background: #523a3a00;
+    color: #867979;
+}
+
+.group_menu ul li ul {
+    z-index: 3;
+    position: absolute;
+    left: 0;
+    width: 180px;
+    background: #151A36;
+    display:  none;
+}
+.group_menu ul li ul li {
+    width: 100%;
+}
+.group_menu ul li ul li a{
+    font-family:'Times New Roman', Times, serif;
+}
+.group_menu ul li:hover > ul{
+    display: initial;
+
+}
+.ssilka_news{
+    /* Новости */
+    /* Новости */
+
+    position: absolute;
+
+
+    width: 242px;
+    height: 26px;
+    left: 35px;
+    top: 600px;
+
+
+}
+
+.button_burger{
+    /* Group 6 */
+   /* Group 4 */
+
+   /* Group 4 */
+
+    position: absolute;
+    left: 20.41%;
+    right: 77.08%;
+    top: 45.68%;
+    bottom: 23.46%;
+
+}
+.burger{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    left: 10px;
+    width: 30px;
+    height: 18px;
+}
+.burger span{
+    height: 2px;
+    width: 80%;
+    transform: scale(1);
+    background-color: #ffffff;
+}
+.burger::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #FFFFFF;
+    
+}
+.burger::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 60%;
+    background-color: #FFFFFF;
+    
+}
+.burger::before { top: 0}
+
+.burger::after { bottom: 0}
+.sleder_news{
+
+    position: absolute;
+    width: 848px;
+    height: 401px;
+    left: calc(50% - 848px/2 + 13px);
+    top: 170px;
+    background: #D9D9D9;
+
+}
+.slider {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
+  .slider {
+    position: absolute;
+    width: 848px;
+    height: 401px;
+  }
+.news_text{
+    /* Новости */
+
+    position: absolute;
+    width: 242px;
+    height: 26px;
+    left: 35px;
+    top: 630px;
+
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+.conteiner_news{
+        /* Group 23 */
+
+    position: absolute;
+    width: 1259px;
+    height: 330px;
+
+    top: 681px;
+
+}
+.group1{
+    /* Group 13 */
+    position: absolute;
+    width: 376px;
+    height: 330px;
+    left: 43px;
+    
+    color: #000000;
+
+
+}
+.group1 div{
+    /* Rectangle 13 */
+
+    position: absolute;
+    width: 376px;
+    height: 207px;
+    
+
+    
+}
+.group2 div{
+    /* Rectangle 13 */
+
+    position: absolute;
+    width: 376px;
+    height: 207px;
+    
+
+    
+}
+.group3 div{
+    /* Rectangle 13 */
+
+    position: absolute;
+    width: 376px;
+    height: 207px;
+    
+
+    
+}
+.text_h{
+    /* Заголовок */
+
+    position: absolute;
+    width: 110.92px;
+    height: 25.79px;
+    
+    top: 130px;
+
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+.date_tex{
+    /* 01/03/2024 */
+
+    position: absolute;
+    width: 95.79px;
+    height: 26.83px;
+    left: 280px;
+    top: 130px;
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+.text_news{
+    /* Сегодня нам завезли новые подшипники на коленчатый вал мотоцикла Минск! */
+
+    position: absolute;
+    width: 360.98px;
+    height: 60.87px;
+    
+    top: 180.13px;
+
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+}
+.group2{
+    /* Group 13 */
+   
+
+    position: absolute;
+    width: 381px;
+    height: 330px;
+    left: 485px;
+    
+
+}
+.group3{
+    /* Group 13 */
+    /* Group 15 */
+
+    position: absolute;
+    width: 376px;
+    height: 330px;
+    left: 926px;
+
+}
+
+.foote{
+    /* Rectangle 14 */
+
+    position: absolute;
+    width: 1366px;
+    height: 350px;
+    left: 0px;
+    top: 1083px;
+    /* Rectangle 14 */
+
+  
+
+    background: #EFD8D8;
+
+}
+
+.foote_2{
+    /* Rectangle 14 */
+
+    position: absolute;
+    width: 1366px;
+    height: 350px;
+    left: 0px;
+    top: 750px;
+    /* Rectangle 14 */
+
+  
+
+    background: #EFD8D8;
+
+}
+
+.group{
+    /* Group 22 */
+
+    position: absolute;
+    width: 709px;
+    height: 151px;
+    left: calc(50% - 709px/2 + 0.5px);
+    top: 50px;
+
+
+}
+
+.logo_foote{
+    /* заголовок */
+
+    position: absolute;
+    width: 219px;
+    height: 82px;
+    
+
+}
+.logo_f{
+    
+    /* 17096500988667votglk7 1 */
+    /* Group */
+
+    position: absolute;
+    left: 1.49%;
+    right: 1.39%;
+    
+
+
+    background: #EFD8D8;
+    accent-color:  #EFD8D8;
+    fill: #867979;
+
+    
+}
+.text_foote{
+    /* lorem ipsum sample text, lorem ipsum sample text, lorem ipsum sample text, lorem ipsum sample text, lorem ipsum sample text */
+
+    position: absolute;
+    width: 269px;
+    height: 56px;
+   
+    top: 100px;
+
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #000000;
+
+}
+.group_fot_1{
+    /* Group 16 */
+
+    position: absolute;
+    width: 176px;
+    height: 149px;
+    left: 300px;
+}
+.tex_1{
+    /* О КОМПАНИИ */
+
+    position: absolute;
+    width: 146px;
+    height: 25px;
+  
+
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #000000;
+
+
+}
+.line{
+    position: absolute;
+    width: 149px;
+    height: 0px;
+    left: -90px;
+    top: 80px;
+
+    border: 1px solid #606060;
+    transform: rotate(90deg);
+}
+.text1{
+    /* Доставка */
+
+    position: absolute;
+    width: 111px;
+    height: 16px;
+ 
+    top: 30px;
+    left: 20px;
+
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #000000;
+
+}
+.text2{
+    /* Доставка */
+
+    position: absolute;
+    width: 111px;
+    height: 16px;
+ 
+    top: 50px;
+    left: 20px;
+
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #000000;
+
+}
+.text3{
+    /* Доставка */
+
+    position: absolute;
+    width: 111px;
+    height: 16px;
+ 
+    top: 70px;
+    left: 20px;
+
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #000000;
+
+}
+.text4{
+    /* Доставка */
+
+    position: absolute;
+    width: 111px;
+    height: 16px;
+ 
+    top: 90px;
+    left: 20px;
+
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+
+    color: #000000;
+
+}
+.group_fot_2{
+    /* Group 19 */
+
+    position: absolute;
+    width: 198px;
+    height: 149px;
+    left: 550px;
+
+
+}
+
+.katalog_tovar{
+    /* Group 24 */
+    flex-wrap: wrap;
+    display: flex;
+    float: left;
+    margin-bottom: 36px;
+    position: absolute;
+    width: 833px;
+    height: 631px;
+    left: 445px;
+    top: 225px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+
+
+}
+.tovar_1{
+    /* tovar */
+   
+    position: relative;
+    width: 250px;
+    height: 300px;
+    /* Rectangle 24 */
+
+    box-sizing: border-box;
+
+    border: 1px solid #D9D9D9;
+
+}
+.image{
+    /* 6907 1 */
+
+    position: absolute;
+    width: 195px;
+    height: 180px;
+    left: 42px;
+    top: 12px;
+
+
+}
+.image img{
+    width: 195px;
+    height: 180px;
+}
+.info{
+    /* Карбюратор P - 47R PACCO Минск */
+
+    position: absolute;
+    width: 195px;
+    height: 45px;
+    left: 28px;
+    top: 219px;
+
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+}
+.prise{
+    /* 4 000 ₽ */
+
+    position: absolute;
+    width: 184px;
+    height: 20px;
+    top: 50px;
+
+    font-family: 'Nokora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+}
+
+.searth{
+    /* Rectangle 15 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 355px;
+    height: 498px;
+    left: 41px;
+    top: 225px;
+
+    background: #FFFFFF;
+    border: 1px solid #606060;
+
+}
+.name_serch{
+    /* ФИЛЬТРЫ */
+
+    position: absolute;
+    width: 231px;
+    height: 55px;
+    left: 26px;
+    top: 17px;
+
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+.line_f{
+    /* Line 6 */
+
+    position: absolute;
+    width: 300px;
+    height: 0px;
+    left: 22px;
+    top: 72px;
+
+    border: 1px solid #000000;
+    transform: rotate(0deg);
+}
+.text_fe{
+    /* Запчасти для */
+
+    position: absolute;
+    width: 209px;
+    height: 29px;
+    left: 25px;
+    top: 83px;
+
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+
+.t1{
+    /* Двигатель */
+
+    position: absolute;
+  
+    height: 19px;
+    left: 62px;
+    top: 122px;
+
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+.t2{
+    /* Коробка передач */
+
+    position: absolute;
+   
+    height: 19px;
+    left: 62px;
+    top: 146px;
+
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.t3{
+    /* Обвес, пластик и оптика */
+
+    position: absolute;
+ 
+    height: 19px;
+    left: 62px;
+    top: 170px;
+
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+
+.t4{
+    /* Топливная система */
+
+    position: absolute;
+
+    height: 19px;
+    left: 62px;
+    top: 194px;
+
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.t5{
+    /* Тормозная система */
+
+    position: absolute;
+
+    height: 19px;
+    left: 62px;
+    top: 218px;
+
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.t6{
+    /* Тросы */
+
+    position: absolute;
+ 
+    height: 19px;
+    left: 62px;
+    top: 242px;
+
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+.t7{
+    /* Ходовая часть */
+
+    position: absolute;
+  
+    height: 19px;
+    left: 62px;
+    top: 266px;
+
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.t8{
+    /* Электроника */
+
+    position: absolute;
+
+    height: 19px;
+    left: 62px;
+    top: 290px;
+
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+}
+
+
+.demoCustomCheckbox {
+    display: none;
+}
+
+.demoCustomCheckbox + label {
+    position: relative;
+    padding-left: 30px;
+    height: 1.5em;
+    display: flex;
+    align-items: center;
+    color: #000;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.demoCustomCheckbox + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+   
+    /* Rectangle 16 */
+
+    box-sizing: border-box;
+
+   
+    width: 15px;
+    height: 15px;
+   
+
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+
+}
+
+.demoCustomCheckbox:checked + label::before {
+    /*border-color: #00b50e;*/
+    background-image: url('/img/Rectangle\ 40.svg');
+    background-size: contain;
+}
+
+.demoCustomCheckbox2 + label {
+    position: relative;
+    padding-left: 30px;
+    height: 1.5em;
+    display: flex;
+    align-items: center;
+    color: #000;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.demoCustomCheckbox2 + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+   
+    /* Rectangle 16 */
+
+    box-sizing: border-box;
+
+   
+    width: 15px;
+    height: 15px;
+   
+
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+
+}
+
+.demoCustomCheckbox2:checked + label::before {
+    /*border-color: #00b50e;*/
+    background-image: url('/img/Rectangle\ 40.svg');
+    background-size: contain;
+}
+
+.text_fef{
+    /* Цена */
+
+    position: absolute;
+    width: 209px;
+    height: 29px;
+    left: 25px;
+    top: 321px;
+
+    font-family: 'Neuton';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+.line_fef{
+    /* Line 7 */
+
+    position: absolute;
+    width: 278px;
+    height: 0px;
+    left: 29px;
+    top: 375px;
+
+    border: 1px solid #606060;
+
+}
+
+.polunok1{
+    /* Rectangle 26 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 29px;
+    top: 365px;
+
+    background: #F0440D;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+
+
+}
+
+.polunok2{
+    /* Rectangle 26 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 158px;
+    top: 365px;
+
+    background: #F0440D;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+}
+.prise_1{
+    /* 0 руб. */
+
+    position: absolute;
+    width: 63px;
+    height: 13px;
+    left: 22px;
+    top: 398px;
+
+    font-family: 'Anonymous Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+.prise_2{
+    /* 0 руб. */
+
+    position: absolute;
+    width: 97px;
+    height: 13px;
+    left: 137px;
+    top: 398px;
+
+    font-family: 'Anonymous Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+.prise_3{
+    /* 0 руб. */
+
+    position: absolute;
+    width: 63px;
+    height: 13px;
+    left: 253px;
+    top: 398px;
+
+    font-family: 'Anonymous Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.Tovar_info{
+    /* Rectangle 28 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 850px;
+    height: 422px;
+    left: calc(50% - 850px/2);
+    top: 220px;
+
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+
+}
+.tovar_prezent{
+    /* Tivar_prezent */
+
+    position: absolute;
+    width: 237px;
+    height: 317px;
+    left: 64px;
+    top: 21px;
+}
+.tovar_foto{
+    /* Rectangle 29 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 237px;
+    height: 268px;
+    
+
+    background: #D9D9D9;
+    border: 1px solid #606060;
+
+}
+.tovar_foto1{
+    /* Rectangle 31 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 42px;
+    height: 40px;
+    top: 280px;
+
+    background: #D9D9D9;
+    border: 1px solid #606060;
+}
+.tovar_foto2{
+    /* Rectangle 31 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 42px;
+    height: 40px;
+    top: 280px;
+    left: 65px;
+    
+
+    background: #D9D9D9;
+    border: 1px solid #606060;
+}
+.tovar_foto3{
+    /* Rectangle 31 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 42px;
+    height: 40px;
+    top: 280px;
+    left: 128px;
+
+    background: #D9D9D9;
+    border: 1px solid #606060;
+}
+.tovar_foto4{
+    /* Rectangle 31 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 42px;
+    height: 40px;
+    top: 280px;
+    left: 195px;
+
+    background: #D9D9D9;
+    border: 1px solid #606060;
+}
+
+.name_tovar{
+    /* Коробка переключения передач мотоцикла Минск */
+
+    position: absolute;
+    width: 570px;
+    height: 32px;
+    left: 353px;
+    top: 21px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+.prise_tovar{
+    /* 6 825 ₽ */
+
+    position: absolute;
+    width: 396px;
+    height: 32px;
+    left: 353px;
+    top: 89px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+}
+.tovar_prezent text_0{
+    /* о товаре: */
+    position: absolute;
+    width: 396px;
+    height: 32px;
+    left: 353px;
+    top: 145px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+.tovar_prezent text_1{
+    /* о товаре: */
+    /* производитель: Минскназначение: КПП кол-во скоростей: 4 */
+
+    position: absolute;
+    width: 294px;
+    height: 76px;
+    left: 353px;
+    top: 177px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+}
+.selle{
+    /* Rectangle 35 */
+
+    position: absolute;
+    width: 227px;
+    height: 55px;
+    left: 353px;
+    top: 283px;
+
+    background: #F0440D;
+    border-radius: 5px;
+
+}
+.selle text_button{
+    /* Rectangle 35 */
+
+   /* Купить */
+
+    position: absolute;
+    width: 95px;
+    height: 28px;
+    left: 66px;
+    top: 13px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+
+
+}
+
+.name_d{
+    /* Ваши заказы: */
+
+    position: absolute;
+    width: 298px;
+    height: 35px;
+    left: 178px;
+    top: 188px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+}
+.tovar_basket{
+    /* Rectangle 38 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 715px;
+    height: 74px;
+    left: 178px;
+    top: 247px;
+
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+
+}
+.tovar_fot{
+    /* Rectangle 29 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 108.36px;
+    height: 60.66px;
+    left: 54.3px;
+    top: 6.07px;
+
+    background: #D9D9D9;
+    border: 1px solid #606060;
+
+}
+.tovar_fot text_0{
+   /* Коробка переключения передач мотоцикла Минск */
+
+    position: absolute;
+    width: 269px;
+    height: 19px;
+    left: 173px;
+    top: 20px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+.tovar_fot text_prise{
+    /* Коробка переключения передач мотоцикла Минск */
+ 
+     /* 6 825 ₽ */
+
+    position: absolute;
+    width: 131px;
+    height: 19px;
+    left: 483px;
+    top: 27px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+ }
+
+ .tovar_fot text_kol-vo{
+
+   /* 1 шт. */
+
+    position: absolute;
+    width: 77px;
+    height: 20px;
+    left: 590px;
+    top: 26px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+ }
+ .Selle_tovar{
+    /* Rectangle 18 */
+
+    
+    position: absolute;
+
+    left: 10px;
+    top: 20px;
+
+
+ }
+
+ .demoCustomCheckbox_basket {
+    display: none;
+}
+
+.demoCustomCheckbox_basket + label {
+    position: relative;
+    padding-left: 30px;
+    height: 1.5em;
+    display: flex;
+    align-items: center;
+    color: #000;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.demoCustomCheckbox_basket + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+   
+    /* Rectangle 16 */
+
+    box-sizing: border-box;
+
+   
+    width: 34px;
+    height: 34px;
+   
+
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+
+}
+
+.demoCustomCheckbox_basket:checked + label::before {
+    /*border-color: #00b50e;*/
+    background-image: url('/img/Rectangle 40.svg');
+    background-size: contain;
+}
+
+
+.sum_towar{
+    /* К оплате: 6 825 ₽ */
+
+    position: absolute;
+    width: 340px;
+    height: 54px;
+    left: 553px;
+    top: 334px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+.adres{
+    /* Adress_dostavki */
+
+    position: absolute;
+    width: 286px;
+    height: 82px;
+    left: 198px;
+    top: 426px;
+
+
+}
+.adres p{
+    /* Введите адрес доставки: */
+
+    position: absolute;
+    width: 278px;
+    height: 30px;
+    
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+}
+.adres input{
+    /* Rectangle 39 */
+/* Rectangle 39 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 286px;
+    height: 42px;
+    
+    top: 50px;
+
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+
+
+}
+
+.nomber_tele{
+   
+ 
+
+    position: absolute;
+    width: 286px;
+    height: 82px;
+    left: 198px;
+    top: 513px;
+
+
+
+
+}
+.nomber_tele p{
+    /* Введите адрес доставки: */
+
+    position: absolute;
+    width: 278px;
+    height: 30px;
+    
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+
+}
+.nomber_tele input{
+    /* Rectangle 39 */
+/* Rectangle 39 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 286px;
+    height: 42px;
+    
+    top: 50px;
+
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+
+
+}
+
+.oplata{
+    /* Rectangle 37 */
+
+    position: absolute;
+    width: 227px;
+    height: 55px;
+    left: 792px;
+    top: 594px;
+
+    background: #F0440D;
+    border-radius: 5px;
+
+}
+.oplata text_button{
+    /* Оплатить */
+
+    position: absolute;
+    width: 127px;
+    height: 28px;
+    left: 50px;
+    top: 13px;
+
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+
+}
